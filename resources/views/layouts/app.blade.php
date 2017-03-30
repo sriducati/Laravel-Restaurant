@@ -28,9 +28,8 @@
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="/js/map_api.js"></script>
+    
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbqzNyfMZRFb2Diyo7q4xi--6OPk8Mn9M"></script>
 </head>
 <body id="app-layout">
     <nav class="navbar navbar-default navbar-static-top">

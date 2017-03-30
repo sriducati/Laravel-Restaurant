@@ -40,21 +40,30 @@
                                         </select>
                                     </div>
                                 </div>
+
+                                <div class="form-group">
+                                  <label class="control-label col-sm-2" for="pwd">Location:</label>
+                                  <div class="col-sm-10">          
+                                    <input id="address" class="form-control" type="textbox" value="bedok">
+                                    <button id="submit" class="form-control btn-primary" type="button" value="Geocode">Get Latitude Longitude</button>
+                                  </div>
+                                </div>
+
                                 <div class="form-group">
                                   <label class="control-label col-sm-2" for="pwd">Latitude:</label>
                                   <div class="col-sm-10">          
-                                    <input type="text" class="form-control" name="latitude" placeholder="Enter Latitude">
+                                    <input type="text" class="form-control" id="latitude" name="latitude" placeholder="Enter Latitude">
                                   </div>
                                 </div>
                                 <div class="form-group">
                                   <label class="control-label col-sm-2" for="pwd">Longitude:</label>
                                   <div class="col-sm-10">          
-                                    <input type="text" class="form-control" name="longitude" placeholder="Enter longitude">
+                                    <input type="text" class="form-control" id="longitude" name="longitude" placeholder="Enter longitude">
                                   </div>
                                 </div>
                                 <div class="form-group">        
                                   <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-default">Add</button>
+                                    <button type="submit" class="btn btn-default btn-primary">Add</button>
                                   </div>
                                 </div>
                             </form>
@@ -66,4 +75,8 @@
         </div>
     </div>
 </div>
+<script src="/js/map_lat_lng.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-4cx_cLSDa8gJy8qp9Vri46u1YgkS5HA&callback=initMap">
+    </script>
 @endsection

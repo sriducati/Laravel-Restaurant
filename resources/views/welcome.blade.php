@@ -41,5 +41,7 @@
         </div>
     </div>
 </div>
+<script src="/js/map_api.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbqzNyfMZRFb2Diyo7q4xi--6OPk8Mn9M"></script>
 
 @endsection
