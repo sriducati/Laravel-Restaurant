@@ -17,6 +17,13 @@ Additional Features Added:
 - Error Handling.
 - Display Notification.
 
+# Setup
+
+- composer update
+- rename .env.example to .env
+- php artisan key:generate
+- php artisan serve
+
 Note: please check test_restaurant.sql for current DB dump.
 
 any issues? mail me at srihost9@gmail.com or sriducati@gmail.com
