@@ -13,8 +13,10 @@ Visitor panel:
 
 Additional Features Added:
 
-Register and login Admin.
-Error Handling.
-Display Notification.
+- Register and login Admin.
+- Error Handling.
+- Display Notification.
+
+Note: please check test_restaurant.sql for current DB dump.
 
 any issues? mail me at srihost9@gmail.com or sriducati@gmail.com
