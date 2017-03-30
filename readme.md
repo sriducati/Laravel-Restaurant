@@ -2,9 +2,9 @@
 
 Admin Panel:
 - Able to manage restaurants with fields such as name,category, lat/lng
-	-Create Restaurant
-	-Update Restaurant
-	-Delete Restaurant
+	- Create Restaurant
+	- Update Restaurant
+	- Delete Restaurant
 
 Visitor panel:
 - Able to display restaurants location in google map(Plot markers on map)
