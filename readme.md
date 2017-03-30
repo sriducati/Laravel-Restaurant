@@ -8,6 +8,8 @@ Admin Panel:
 	- Update Restaurant
 	- Delete Restaurant
 
+![Alt text](/public/screenshot_admin.JPG?raw=true "Enter location to get Latitude and Longitude")	
+	
 Visitor panel:
 - Able to display restaurants location in google map(Plot markers on map)
 - Able to detect current location and calculate distance from current location to restaurant, with turn by turn driving details using google api
@@ -16,6 +18,7 @@ Visitor panel:
 Additional Features Added:
 
 - Register and login Admin.
+- Find Latitude,longitude coordinates for any given place entered.
 - Error Handling.
 - Display Notification.
 
