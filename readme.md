@@ -1,7 +1,5 @@
 # Laravel Restaurant
 
-![Alt text](/public/screenshot.JPG?raw=true "Find distance using from current location to restaurant using Laravel")
-
 Admin Panel:
 - Able to manage restaurants with fields such as name,category, lat/lng
 	- Create Restaurant
@@ -14,6 +12,9 @@ Visitor panel:
 - Able to display restaurants location in google map(Plot markers on map)
 - Able to detect current location and calculate distance from current location to restaurant, with turn by turn driving details using google api
 - Responsive
+
+![Alt text](/public/screenshot.JPG?raw=true "Find distance using from current location to restaurant using Laravel")
+
 
 Additional Features Added:
 
